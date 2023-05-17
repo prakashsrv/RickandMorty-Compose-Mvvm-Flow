@@ -1,6 +1,7 @@
 package com.example.rickandmorty_compose_mvvm_flow
 
 import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
 
-class MainAppilcation : Application() {
-}
+@HiltAndroidApp
+class MainAppilcation : Application()

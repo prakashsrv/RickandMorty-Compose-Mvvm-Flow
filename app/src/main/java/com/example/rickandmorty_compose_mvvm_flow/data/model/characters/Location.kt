@@ -1,4 +1,4 @@
-package com.example.example
+package com.example.rickandmorty_compose_mvvm_flow.data.model.characters
 
 import com.google.gson.annotations.SerializedName
 
