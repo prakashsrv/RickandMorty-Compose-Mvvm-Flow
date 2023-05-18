@@ -1,5 +1,6 @@
 package com.example.rickandmorty_compose_mvvm_flow.di.module
 
+import com.example.rickandmorty_compose_mvvm_flow.BuildConfig
 import com.example.rickandmorty_compose_mvvm_flow.data.api.NetworkHelperImpl
 import com.example.rickandmorty_compose_mvvm_flow.data.api.NetworkService
 import dagger.Module
@@ -15,6 +16,7 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 class ApplicationModule {
+
 
     @Provides
     fun provideBaseUrl() = BuildConfig.BASE_URL
